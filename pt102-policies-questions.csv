@@ -1,0 +1,69 @@
+Describe the uses of the Employee Attribute policy.~Defines an employee attribute, which can track a specific formula/attribute over long periods of time. e.g. How much PTO used in a year?
+Describe the uses of the General Policy policy.~Links to policy sets and key policies for the Policy Profile. In particular, it links to the In/Out policy and the week definition. Focuses on calculations. Should have a 1-to-1 relationship with the Policy Profile Master policies.
+Describe the uses of the Policy Profile Group policy.~Defines the pay frequency, the reference period end date, and whether Multiple Assignments are enabled. Very few per configuration.
+Describe the uses of the Policy Profile Master policy.~Links to some key policies for the Policy Profile. Focuses on interface and access. Should have a 1-to-1 relationship with the General Policy policies.
+Describe the uses of the Time Handling Policy policy.~Rarely used outside of the auto-amendments, but is required for the PPM.
+Describe the uses of the Pay Code policy.~Unique identifier for a transaction on the timesheet. No settings other than the name and a description.
+Describe the uses of the Pay Code Formula policy.~"Calculations/fields to move to TSO from TSDS. Note that the context for the Pay Formula is slice-level but for TSO, not TSDS. So adding ""timerecord."" is necessary."
+Describe the uses of the Pay Code Map policy.~Defines entry type (HOURS/AMOUNT/IO), security (Field Security Policy), and other policies for pay codes. e.g. Bank usage and output
+Describe the uses of the Pay Code Result Category policy.~"Defines fields on TSO, using field mappings. If value is summed, check ""Negate old value and recalculate."""
+Describe the uses of the Global Formula Parameter policy.~Defines new global variables. Does NOT define the calculations for it. Also defines return/data type for the global variable.
+Describe the uses of the Macro policy.~Defines text replacement macros for use in formula language. Macros allow parameters.
+Describe the uses of the Named Formula Group policy.~Defines variables that can be used in exception message text.
+Describe the uses of the Summary Calculation Policy policy.~Defines the calculations for global variables. Includes context, calc order, return type, and formula for each GFP, and the calc stage for the Summary Calculation Policy.
+Describe the uses of the Timesheet Calculation Policy policy.~Handles all of the TSDS calculations. e.g. base pay rate, adjusted rates, and gross pay
+Describe the uses of the Exception Code policy.~Unique identifier for an exception on the timesheet. Does not define message, trigger, severity, or anything else.
+Describe the uses of the Exception Policy policy.~Defines the severity, message, location, and limitations (e.g. cannot save timesheet) of exceptions on the timesheet.
+Describe the uses of the Exception Trigger policy.~Defines the context, calc stage, and trigger formula of exceptions on the timesheet.
+Describe the uses of the Exception Trigger Group policy.~Basically acts as an Exception Trigger set.
+Describe the uses of the Bank Accrual Policy policy.~Defines accruals for a bank (e.g. monthly, specific pay code, new employee).
+Describe the uses of the Bank policy.~Unique identifier for a bank. Defines the number format.
+Describe the uses of the Bank Clearing Policy policy.~Defines clearings for banks (e.g. end of year).
+Describe the uses of the Bank Pool Policy policy.~Defines sequential use of banks for pay code usage. The set version defines concurrent use of pools.
+Describe the uses of the Bank Policy policy.~Links the bank code with the accrual, transfer, and clearing policies, and links to the General Policy through a set.
+Describe the uses of the Bank Transfer Policy policy.~Defines transfers that happen at specific times (e.g. end of year).
+Describe the uses of the Bank Usage Policy policy.~Defines the calc stage, remainders pay code, and remainder exception for bank usage. Links to the Bank Pool set.
+Describe the uses of the Premium Policy policy.~Defines any premiums to run. Premiums reclassify existing time slices (e.g. overtime).
+Describe the uses of the Time Record Grouping Policy policy.~Used to group time slices into concurrent work. Useful for transaction creation policies related to call-in minimums.
+Describe the uses of the Transaction Creation Policy policy.~Defines any transaction creations to run. Transaction creations create new time slices (e.g. holidays, call-in minimums).
+Describe the uses of the Grace Policy policy.~Defines how the user's entered time is adjusted to match the schedule.
+Describe the uses of the In/Out Policy policy.~Defines rounding, tardy rules, overlap rules, and swipe rules.
+Describe the uses of the Message Detail policy.~Defines subject and message for automated messages.
+Describe the uses of the Message Recipients Group policy.~Defines recipient groups which can be in the To/CC parts of messages.
+Describe the uses of the Holiday policy.~Unique identifier for a holiday. Also defines static dates it has occurred on/will occur on.
+Describe the uses of the Holiday Generation Policy policy.~DO NOT USE!
+Describe the uses of the Approval Policy policy.~Defines the approval window for the manager, as well as minimum approval level for amended timesheets, and links to the deadlines policy set.
+Describe the uses of the Approval Deadlines policy.~Defines when approval reminders should be triggered.
+Describe the uses of the Bank Balance Layout policy.~Links to a bank set which determines which banks to show. Also allows overriding verbiage for credits and debits.
+Describe the uses of the Home Page Layout policy.~Allows overriding blocks, categories, and links for the homepage.
+Describe the uses of the Dashboard Task Rule policy.~Defines task lists to display on the home page.
+Describe the uses of the Field Security Policy policy.~Defines which fields display and who can view/edit them for each type of field security (linked in pay code map).
+Describe the uses of the LD Upload Layout policy.~Defines the layout of the CSV files that the user can upload when managing LD rows in the web interface.
+Describe the uses of the Pay Preview Layout policy.~Defines the pay codes and fields to display in the pay preview.
+Describe the uses of the Theme policy.~Defines colors and images for the WT&A theme.
+Describe the uses of the Time Entry Group policy.~Defines the grouping within a view of the timesheet. Allows specifying the visible pay codes, columns, detail columns, and default rows.
+Describe the uses of the Time Entry Layout policy.~Defines the tabs in each section of the timesheet (main vs. bottom), including security on them. Also defines some basic information about the expected day (e.g. 8-to-5 are standard business hours).
+Describe the uses of the Time Entry Policy policy.~Provides link between Time Entry Layout and PPM. Unsure what else it does.
+Describe the uses of the Time Entry Views policy.~Defines the different groups to use for each view type (Day/List/Table). Used for both timesheets and schedules.
+Describe the uses of the Timesheet Data Layout policy.~Links field mappings to the timesheet. Primarily used for attestation.
+Describe the uses of the Totals Layout policy.~Defines which pay codes to total and which to subtract from the total. Also defines the display format and whether to do client or server processing.
+Describe the uses of the Translation policy.~Just defines a translation. Only field is the language, picked from a static dropdown.
+Describe the uses of the UI Options policy.~Defines theme, sort, search, and wizards for each role.
+Describe the uses of the User Entry Policy policy.~Defines a variety of role-based limitations related to the timesheet. e.g. future/past pay period edits, amendment permission, banks to view
+Describe the uses of the Data Element policy.~"Unique identifier for a ""friendly"" name for data. Defines place and associated field on each DB table."
+Describe the uses of the Environment policy.~Unique identifier for each environment. Only field is a link to an environment profile.
+Describe the uses of the Field Mapping Policy policy.~Defines a policy-editor-usable field that links to the DB through a data element. For LD fields, it also links to the LD policy.
+Describe the uses of the Role policy.~Defines the General and Group roles, their approval levels, and the system features they have.
+Describe the uses of the System Feature policy.~Largely pre-defined rights. For some custom setups, it can link to a Java class.
+Describe the uses of the Variable Field policy.~Defines what the variable fields are named (e.g. EMP_DATEx)
+Describe the uses of the LD Fields policy.~Defines an LD field, including where it appears in the TSD table, and which LD table it owns.
+Describe the uses of the LD Field Dependencies policy.~Defines the LD field dependencies (i.e. which LD values are available based on another field). Even if the LD field does not depend on anything, it still needs an LD Field Dependencies policy.
+Describe the uses of the LD Policy policy.~Provides link from LD Field Dependencies set to the PPM.
+Describe the uses of the Time Off Request Policy policy.~Defines the time off request window/process, including when it can be requested, who can request, what they can request, etc.
+Describe the uses of the Amendment Report Layout policy.~Defines what information is available when comparing versions of a timesheet (i.e. amended timesheets).
+Describe the uses of the Report policy.~The standard reports. Can be enabled/disabled with a checkbox, based on which ones the user requests.
+Describe the uses of the Mobile Timesheet Approval Layout policy.~Defines the approval window/process for the manager's mobile version.
+Describe the uses of the Mobile Bank Balance Layout policy.~Defines which banks are available in the mobile version.
+Describe the uses of the Mobile Layout Policy policy.~Links the other mobile policies to the PPM.
+Describe the uses of the Mobile Time Entry Layout policy.~Defines the paycodes and columns that show on the mobile version of the timesheet. Has both timesheet and schedule varieties.
+Describe the uses of the Mobile Time Entry Summary Layout policy.~Provides a summary view of the timesheet.

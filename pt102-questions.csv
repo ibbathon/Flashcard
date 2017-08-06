@@ -1,0 +1,99 @@
+Which document allows you to track your progress on initial configuration items and see assignments?~Config Plan~SOW~BRD~SDD
+If clarification is needed on a requirement, who would typically provide the details needed?~Implementation Consultant~Project Manager~Senior Application Consultant~Customer
+The _______ cross-references the solution elements back to the business requirements~Solution Design Document (SDD)
+What is the definition of a WorkForce environment?~An environment is a WorkForce installation, hosted on a WFS server and supporting load balancing. It is both the customer’s test and production environments, and is used to duplicate how a customer’s system might work—for configuration, demo, and testing activities—and uses datasets and a database.
+How do you access a payroll export file for an environment in TM?~Environments Tab > Select Environment > Actions button > View Files > Interface folder > Outgoing folder
+True or False. You can stop any environment at any time.~True
+A dump does what? Enter all that apply: a. Make a database backup; b. Make a policy backup; c. Make a database and policy backup; d. Make a dataset or policy backup~b and c
+How many types of policy searches are there?~3
+How can you clean up multiple expanded folders and sections?~Right-click > Collapse All
+Before deleting a policy, what should you always do to see where the policy is used?~Usage Links
+If a policy is deleted, is there a way of finding what was deleted?~Policy History
+What are the two methods of commenting and their syntax?~Line Commenting // and Block Commenting /* */
+True or False. A single formula box can accept more than one type of data for the return value.~False
+True or False. The day global variable can be used in slice context formulas.~True
+What is the alternate syntax for the ‘and’ or ‘or’ operators?~&& and ||
+What are the three parts, in order, of an ‘if’ statement?~IF; THEN; ELSE
+True or False. You can reference a local variable outside the formula box in which it is declared.~False
+What is the syntax for calling a macro named MACRO that contains no parameters?~$MACRO$
+What is the syntax for calling a macro named PARM_MACRO that uses a single parameter?~$PARM_MACRO(parameter)$
+Which item is the best text to use as a parameter in a Macro Policy?~Context~Day~X~Emp
+Name the two places where Templates can be found.~Tenant Manager (TM) or the Admin Client
+True or False. If the wrong Template was imported, you can use the Undo function to remove the incorrect Template.~False
+How would you choose the correct Template?~Read the Technical Spec document
+Name the two ways debug files can be accessed for viewing.~Onscreen or File Administration
+Give two reasons a formula result be missing from the calculations on a debug file?~Error Exception prevented calculation from continuing or a variable was not declared
+Name the two most common ways application errors can be accessed for troubleshooting.~WorkForce Error Report or Server Log file
+What naming convention would you give the premium policy for Prime Manufacturing Inc. that pays overtime when 10 consecutive days are worked?~PMI_OT_10_CONS_DAYS or PMI_OT_CONS_DAYS_10
+True or False. Effective dates can overlap, as long as there’s a qualification in place.~False
+Which policy governs all of the rules for an individual assignment?~Policy Profile Master~Policy Profile Group~Policy Set~Policy Record
+Name two functions of the Policy Profile Group.~Defines a pay frequency; Provides a reference period end date; Determines whether multiple assignments are enabled
+Which policy contains the link to the In/Out policy?~General Policy~Policy Set~Policy Profile Group~Policy Profile Master
+Enter the correct role type (General Role/Group Role) for each system feature: RESET_PASSWORDS; SUPERUSER; DELEGATION; MANAGER_TIME_ENTRY; ADMIN_LOGIN~General; General; Group; Group; General
+True or False. When delegating, the search function lets you select multiple users at once.~False
+True or False. Assignments must be grouped by manager.~False
+Which policy identifies read and write privileges on a field by field basis?~Field Security Policy
+Which policy links a field to database locations and identifies its format?~Field Mapping Policy
+Which policy identifies database locations so they can be referenced in other policies?~Data Element Policy
+What is required for a Database View to incorporate a new Data Element?~Refresh Views run
+What is the difference between Database Tables and Database Views?~View is the common name of a field while a table is the actual storage location.
+What does a Translation Policy Set do?~Allows the system to check for custom translations first and then go to the default translations. If no translation is found, English is used.
+Why would you have more than one English US translation file?~To accommodate custom terminology used by the organization.
+True or False. Some translations can be configured either in each policy or through the Translation export/import process.~True
+Which policy controls how far into the past or into the future someone can view or edit timesheets?~User Entry Policy~Home Page Layout~Dashboard Task Rule~UI Options
+True or False. You can customize the color scheme to any color requested through the Theme policy.~True
+Fill in the blank. The Home Screen can have a list of unapproved time off requests which is set up on the ______ policy.~Dashboard Task Rule
+If you must manually terminate an employee, what key consideration is there when creating the new effective-dated employee and assignment records?~Ensure there are no gaps between the effective dates.
+True or False; explain. The Employee Edit Layout Policy is where you can add and remove employee fields to view on the Edit Employee screen in the Web interface.~False - this policy is for the unused New Hire screen
+True or False; explain. After creating a Pay Code, you must add it directly to the Policy Profile Master.~False – It must be added to the Pay Code Map which is tied to the Policy Profile Master.
+True or False; explain. Populating the Pay Code Map makes the Pay Code visible on the timesheet.~False – While some security settings exist on the Pay Code Map, the Pay Code must also be added to a Time Entry Group policy.
+True or False. All pay codes appear on timesheets by default.~False
+Which view displays each entry on a timesheet in its own row?~List view~Day view~Table view
+Give the correct policy terms for the definitions: a. Determines what Pay Codes and columns display on the timesheet; b. Associates roles with a time entry layout; c. Determines the tabs that display on the timesheet and where they are located~Time Entry Group; Time Entry Policy; Time Entry Layout
+What is the difference between Server Totals and Client Totals?~Client Totals on the timesheet that are calculated immediately using timesheet values and hardcoded programming. Server Totals on the timesheet that are calculated on save using an hours/amount calculation which has gone through the calculation stages.
+Name two ways that schedule data can be used in WorkForce.~Tardy exceptions; Gracing; Identify time worked in- and outside of a schedule; Formula language can reference the records on a schedule
+What is the difference between a Schedule Template Policy and Schedule Cycles Policy?~Schedule Template is for one repeating pattern each pay period. Schedule Cycles are a collection of Schedule Templates to use multiple repeated patterns of schedules.
+Identify the statements as True or False: a. You can delete a Schedule Cycle after it has been assigned; b. The Time Handling Policy is one of the few policies that are optional for the Policy Profile Master; c. All schedules generate a single schedule record for each row in the schedule template.~False; False; True
+Fill in the blank. Template and cycle changes ________ apply if the timesheet or schedule have already been saved.~do not
+List the items in the hierarchy that determines the order when a calculation stage occurs.~Calculation Stage; Context (Slice, Day, Period/Month); Set Order
+Which table does NOT contain calculated data?~TIME_SHEET_DETAIL~TIME_SHEET_DETAIL_SPLIT~TIME_SHEET_OUTPUT
+What is a grace rule?~An adjustment in minute-increments to in and out times to the scheduled times for the purposes of pay.
+What is the primary purpose of the Time Handling Policy?~While most fields are for legacy purposes, it is still used to enable Auto Amendments.
+True or False. In exception messages, the Named Formula Group variables must be wrapped in percent signs.~True
+True or False; explain. All users can always select the Exceptions checkbox if it appears on a timesheet.~False – depends on the role set
+What is a premium and how does it function?~A premium policy takes existing time entered and reclassifies it into something else oftentimes for pay variances.
+True or False; explain. A premium always automatically reclassifies all worked time over 40 hours as overtime.~False – a specific premium must set up to do this.
+True or False. Add New Transaction to Group is a required field when creating a Transaction Creation policy.~False
+What is an example of when a Transaction Creation policy can be used?~Adding a bonus, minimal call hours, shift differentials, etc.
+How do Transaction Creation policies compare and contrast to Premium policies?~Both TCPs and Premium Policies affect time entered and how it appears in Results. TCPs add time and Premiums reclassify it.
+Which formula function determines whether a date is a holiday?~getHoliday~listHoliday~viewHoliday~findHoliday
+Name at least two fields that automatically move from TIME_SHEET_DETAIL_SPLIT to TIME_SHEET_OUTPUT.~PAY_CODE; WORK_DT; HOURS; START_DTTM; END_DTTM; LDX
+Name at least two fields that do not automatically move from TIME_SHEET_DETAIL_SPLIT to TIME_SHEET_OUTPUT.~COMMENTS, AMOUNT, PAY
+Fill in the blank. The Pay Code Formula is executed during the _____ calculation stage.~PAY
+True or False. Employee attributes only store numeric data.~False
+True or False. Employee attributes can count the number of times an employee clocked in early in a given month.~True
+True or False. Employee attributes must recalculate every day.~False
+Between Summary Calculation Policies and Global Formula Parameter policies which one does the calculation and which one stores the data?~The Summary Calculation Policy does the calculation. The Global Formula Parameter stores the data.
+Which table can store the Summary Calculation values?~TIME_SHEET_OUTPUT_SUMMARY~TIME_SHEET_DETAIL~TIME_SHEET_DETAIL_SPLIT~TIME_SHEET_OUTPUT
+Which approval level locks a timesheet?~99~97~98~100
+True or False. All timesheets in the Policy Profile Group must be closed before an advance is allowed.~True
+True or False. Timesheets that managers approve typically have an approval level of 1.~False
+Fill in the blank. The highest approval level to which a role should be set is ____.~97
+Name at least three system features that need to be assigned to roles to set up off-cycle timesheet processing.~MANAGER_OFF_CYCLE; OFF_CYCLE_CLOSE; OFF_CYCLE_CANCEL; OFF_CYCLE_GENERIC_EXPORT; OFF_CYCLE_ORACLE_PAYROLL_EXPORT; OFF_CYCLE_REEXPORT
+What is the order in which the WITHIN_PERIOD_BANK_PROCESSING calculation stage performs calculations?~Accruals, Usage, Transfers, Clearings~Usage, Accruals, Clearings, Transfers~Usage, Accruals, Transfers, Clearings~Accruals, Usage, Clearings, Transfers
+Fill in the blank. The __________ policy defines the rules for drawing from the bank.~Bank Pool
+Enter the terms which match the following definitions: a. A gain of units, such as hours, occurrences, or amounts; b. Specifies how time from a bank gets moved to one or more other banks; c. A repository that contains the amount of earned time available to an employee; d. Specifies how unused units are cleared from employee banks~Bank accrual; Bank transfer; Bank; Bank clearing
+What affects the reports that display for a given WorkForce user?~Roles~User type (employee or manager)~Approval level~Timesheet
+True or False. Application Consultants are responsible for working with custom reports.~False
+Name the three types of exports.~Generic Exports, Incremental Exports, Custom Exports
+What information do you need from the .ALL assignment group for the NIGHTLY_CALCULATE job?~The number or full name of the group from the Group Display ID field.
+Which item describes Labor Distribution fields?~A method of classifying time on a timesheet.~A specific Pay Code on a timesheet.~A field used to calculate overtime hours.~A list of required information to include on a timesheet.
+True or False. LD Dependencies define a relationship between an LD field and any one of the following: employee data, assignment data, or other LD data.~True
+Which policy links all of the Mobile layouts required for sharing across policy profiles?~Mobile Layout Policy
+Where would a new exception message be added to appear on Mobile?~Mobile Time Entry Layout > Main Tab > Exception Set
+Where would a new pay code be added to appear on Mobile?~Mobile Time Entry Layout > Paycodes Tab
+What is the difference between a Positive Test and a Negative Test?~Positive test ensures the configuration happens when it should. A negative test ensures configuration does not happen when it should not.
+What is the order of the following items executed to determine when a policy within a set happens? a. Context (day, slice, etc.); b. Calculation Stage; c. Order in Policy Set~b;a;c
+Who typically provides QA testing on configuration items?~The Implementation Consultant (IC)
+Where would you configure the instance name on the Login screen?~Environment Policy > Instance Name
+Which system features are required when migrating policies? (out of EXPORT_POLICIES, IMPORT_POLICIES, MIGRATE_POLICIES, MOVE_POLICIES)~EXPORT_POLICIES; IMPORT_POLICIES

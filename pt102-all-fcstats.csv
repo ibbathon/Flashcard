@@ -1,0 +1,169 @@
+Question~Successes~Attempts~Score~Ranking (for debug)
+Describe the uses of the Employee Attribute policy.~0~0~0%~0
+Describe the uses of the General Policy policy.~0~0~0%~0
+Describe the uses of the Policy Profile Group policy.~0~0~0%~0
+Describe the uses of the Policy Profile Master policy.~0~0~0%~0
+Describe the uses of the Time Handling Policy policy.~0~0~0%~0
+Describe the uses of the Pay Code policy.~0~0~0%~0
+Describe the uses of the Pay Code Formula policy.~0~0~0%~0
+Describe the uses of the Pay Code Map policy.~0~0~0%~0
+Describe the uses of the Pay Code Result Category policy.~0~0~0%~0
+Describe the uses of the Global Formula Parameter policy.~0~0~0%~0
+Describe the uses of the Macro policy.~0~0~0%~0
+Describe the uses of the Named Formula Group policy.~0~0~0%~0
+Describe the uses of the Summary Calculation Policy policy.~0~0~0%~0
+Describe the uses of the Timesheet Calculation Policy policy.~0~0~0%~0
+Describe the uses of the Exception Code policy.~0~0~0%~0
+Describe the uses of the Exception Policy policy.~0~0~0%~0
+Describe the uses of the Exception Trigger policy.~0~0~0%~0
+Describe the uses of the Exception Trigger Group policy.~0~0~0%~0
+Describe the uses of the Bank Accrual Policy policy.~0~0~0%~0
+Describe the uses of the Bank policy.~0~0~0%~0
+Describe the uses of the Bank Clearing Policy policy.~0~0~0%~0
+Describe the uses of the Bank Pool Policy policy.~0~0~0%~0
+Describe the uses of the Bank Policy policy.~0~0~0%~0
+Describe the uses of the Bank Transfer Policy policy.~0~0~0%~0
+Describe the uses of the Bank Usage Policy policy.~0~0~0%~0
+Describe the uses of the Premium Policy policy.~0~0~0%~0
+Describe the uses of the Time Record Grouping Policy policy.~0~0~0%~0
+Describe the uses of the Transaction Creation Policy policy.~0~0~0%~0
+Describe the uses of the Grace Policy policy.~0~0~0%~0
+Describe the uses of the In/Out Policy policy.~0~0~0%~0
+Describe the uses of the Message Detail policy.~0~0~0%~0
+Describe the uses of the Message Recipients Group policy.~0~0~0%~0
+Describe the uses of the Holiday policy.~0~0~0%~0
+Describe the uses of the Holiday Generation Policy policy.~0~0~0%~0
+Describe the uses of the Approval Policy policy.~0~0~0%~0
+Describe the uses of the Approval Deadlines policy.~0~0~0%~0
+Describe the uses of the Bank Balance Layout policy.~0~0~0%~0
+Describe the uses of the Home Page Layout policy.~0~0~0%~0
+Describe the uses of the Dashboard Task Rule policy.~0~0~0%~0
+Describe the uses of the Field Security Policy policy.~0~0~0%~0
+Describe the uses of the LD Upload Layout policy.~0~0~0%~0
+Describe the uses of the Pay Preview Layout policy.~0~0~0%~0
+Describe the uses of the Theme policy.~0~0~0%~0
+Describe the uses of the Time Entry Group policy.~0~0~0%~0
+Describe the uses of the Time Entry Layout policy.~0~0~0%~0
+Describe the uses of the Time Entry Policy policy.~0~0~0%~0
+Describe the uses of the Time Entry Views policy.~0~0~0%~0
+Describe the uses of the Timesheet Data Layout policy.~0~0~0%~0
+Describe the uses of the Totals Layout policy.~0~0~0%~0
+Describe the uses of the Translation policy.~0~0~0%~0
+Describe the uses of the UI Options policy.~0~0~0%~0
+Describe the uses of the User Entry Policy policy.~0~0~0%~0
+Describe the uses of the Data Element policy.~0~0~0%~0
+Describe the uses of the Environment policy.~0~0~0%~0
+Describe the uses of the Field Mapping Policy policy.~0~0~0%~0
+Describe the uses of the Role policy.~0~0~0%~0
+Describe the uses of the System Feature policy.~0~0~0%~0
+Describe the uses of the Variable Field policy.~0~0~0%~0
+Describe the uses of the LD Fields policy.~0~0~0%~0
+Describe the uses of the LD Field Dependencies policy.~0~0~0%~0
+Describe the uses of the LD Policy policy.~0~0~0%~0
+Describe the uses of the Time Off Request Policy policy.~0~0~0%~0
+Describe the uses of the Amendment Report Layout policy.~0~0~0%~0
+Describe the uses of the Report policy.~0~0~0%~0
+Describe the uses of the Mobile Timesheet Approval Layout policy.~0~0~0%~0
+Describe the uses of the Mobile Bank Balance Layout policy.~0~0~0%~0
+Describe the uses of the Mobile Layout Policy policy.~0~0~0%~0
+Describe the uses of the Mobile Time Entry Layout policy.~0~0~0%~0
+Describe the uses of the Mobile Time Entry Summary Layout policy.~0~0~0%~0
+Which document allows you to track your progress on initial configuration items and see assignments?~0~0~0%~0
+If clarification is needed on a requirement, who would typically provide the details needed?~0~0~0%~0
+The _______ cross-references the solution elements back to the business requirements~0~0~0%~0
+What is the definition of a WorkForce environment?~0~0~0%~0
+How do you access a payroll export file for an environment in TM?~0~0~0%~0
+True or False. You can stop any environment at any time.~0~0~0%~0
+A dump does what? Enter all that apply: a. Make a database backup; b. Make a policy backup; c. Make a database and policy backup; d. Make a dataset or policy backup~0~0~0%~0
+How many types of policy searches are there?~0~0~0%~0
+How can you clean up multiple expanded folders and sections?~0~0~0%~0
+Before deleting a policy, what should you always do to see where the policy is used?~0~0~0%~0
+If a policy is deleted, is there a way of finding what was deleted?~0~0~0%~0
+What are the two methods of commenting and their syntax?~0~0~0%~0
+True or False. A single formula box can accept more than one type of data for the return value.~0~0~0%~0
+True or False. The day global variable can be used in slice context formulas.~0~0~0%~0
+What is the alternate syntax for the ‘and’ or ‘or’ operators?~0~0~0%~0
+What are the three parts, in order, of an ‘if’ statement?~0~0~0%~0
+True or False. You can reference a local variable outside the formula box in which it is declared.~0~0~0%~0
+What is the syntax for calling a macro named MACRO that contains no parameters?~0~0~0%~0
+What is the syntax for calling a macro named PARM_MACRO that uses a single parameter?~0~0~0%~0
+Which item is the best text to use as a parameter in a Macro Policy?~0~0~0%~0
+Name the two places where Templates can be found.~0~0~0%~0
+True or False. If the wrong Template was imported, you can use the Undo function to remove the incorrect Template.~0~0~0%~0
+How would you choose the correct Template?~0~0~0%~0
+Name the two ways debug files can be accessed for viewing.~0~0~0%~0
+Give two reasons a formula result be missing from the calculations on a debug file?~0~0~0%~0
+Name the two most common ways application errors can be accessed for troubleshooting.~0~0~0%~0
+What naming convention would you give the premium policy for Prime Manufacturing Inc. that pays overtime when 10 consecutive days are worked?~0~0~0%~0
+True or False. Effective dates can overlap, as long as there’s a qualification in place.~0~0~0%~0
+Which policy governs all of the rules for an individual assignment?~0~0~0%~0
+Name two functions of the Policy Profile Group.~0~0~0%~0
+Which policy contains the link to the In/Out policy?~0~0~0%~0
+Enter the correct role type (General Role/Group Role) for each system feature: RESET_PASSWORDS; SUPERUSER; DELEGATION; MANAGER_TIME_ENTRY; ADMIN_LOGIN~0~0~0%~0
+True or False. When delegating, the search function lets you select multiple users at once.~0~0~0%~0
+True or False. Assignments must be grouped by manager.~0~0~0%~0
+Which policy identifies read and write privileges on a field by field basis?~0~0~0%~0
+Which policy links a field to database locations and identifies its format?~0~0~0%~0
+Which policy identifies database locations so they can be referenced in other policies?~0~0~0%~0
+What is required for a Database View to incorporate a new Data Element?~0~0~0%~0
+What is the difference between Database Tables and Database Views?~0~0~0%~0
+What does a Translation Policy Set do?~0~0~0%~0
+Why would you have more than one English US translation file?~0~0~0%~0
+True or False. Some translations can be configured either in each policy or through the Translation export/import process.~0~0~0%~0
+Which policy controls how far into the past or into the future someone can view or edit timesheets?~0~0~0%~0
+True or False. You can customize the color scheme to any color requested through the Theme policy.~0~0~0%~0
+Fill in the blank. The Home Screen can have a list of unapproved time off requests which is set up on the ______ policy.~0~0~0%~0
+If you must manually terminate an employee, what key consideration is there when creating the new effective-dated employee and assignment records?~0~0~0%~0
+True or False; explain. The Employee Edit Layout Policy is where you can add and remove employee fields to view on the Edit Employee screen in the Web interface.~0~0~0%~0
+True or False; explain. After creating a Pay Code, you must add it directly to the Policy Profile Master.~0~0~0%~0
+True or False; explain. Populating the Pay Code Map makes the Pay Code visible on the timesheet.~0~0~0%~0
+True or False. All pay codes appear on timesheets by default.~0~0~0%~0
+Which view displays each entry on a timesheet in its own row?~0~0~0%~0
+Give the correct policy terms for the definitions: a. Determines what Pay Codes and columns display on the timesheet; b. Associates roles with a time entry layout; c. Determines the tabs that display on the timesheet and where they are located~0~0~0%~0
+What is the difference between Server Totals and Client Totals?~0~0~0%~0
+Name two ways that schedule data can be used in WorkForce.~0~0~0%~0
+What is the difference between a Schedule Template Policy and Schedule Cycles Policy?~0~0~0%~0
+Identify the statements as True or False: a. You can delete a Schedule Cycle after it has been assigned; b. The Time Handling Policy is one of the few policies that are optional for the Policy Profile Master; c. All schedules generate a single schedule record for each row in the schedule template.~0~0~0%~0
+Fill in the blank. Template and cycle changes ________ apply if the timesheet or schedule have already been saved.~0~0~0%~0
+List the items in the hierarchy that determines the order when a calculation stage occurs.~0~0~0%~0
+Which table does NOT contain calculated data?~0~0~0%~0
+What is a grace rule?~0~0~0%~0
+What is the primary purpose of the Time Handling Policy?~0~0~0%~0
+True or False. In exception messages, the Named Formula Group variables must be wrapped in percent signs.~0~0~0%~0
+True or False; explain. All users can always select the Exceptions checkbox if it appears on a timesheet.~0~0~0%~0
+What is a premium and how does it function?~0~0~0%~0
+True or False; explain. A premium always automatically reclassifies all worked time over 40 hours as overtime.~0~0~0%~0
+True or False. Add New Transaction to Group is a required field when creating a Transaction Creation policy.~0~0~0%~0
+What is an example of when a Transaction Creation policy can be used?~0~0~0%~0
+How do Transaction Creation policies compare and contrast to Premium policies?~0~0~0%~0
+Which formula function determines whether a date is a holiday?~0~0~0%~0
+Name at least two fields that automatically move from TIME_SHEET_DETAIL_SPLIT to TIME_SHEET_OUTPUT.~0~0~0%~0
+Name at least two fields that do not automatically move from TIME_SHEET_DETAIL_SPLIT to TIME_SHEET_OUTPUT.~0~0~0%~0
+Fill in the blank. The Pay Code Formula is executed during the _____ calculation stage.~0~0~0%~0
+True or False. Employee attributes only store numeric data.~0~0~0%~0
+True or False. Employee attributes can count the number of times an employee clocked in early in a given month.~0~0~0%~0
+True or False. Employee attributes must recalculate every day.~0~0~0%~0
+Between Summary Calculation Policies and Global Formula Parameter policies which one does the calculation and which one stores the data?~0~0~0%~0
+Which table can store the Summary Calculation values?~0~0~0%~0
+Which approval level locks a timesheet?~0~0~0%~0
+True or False. All timesheets in the Policy Profile Group must be closed before an advance is allowed.~0~0~0%~0
+True or False. Timesheets that managers approve typically have an approval level of 1.~0~0~0%~0
+Fill in the blank. The highest approval level to which a role should be set is ____.~0~0~0%~0
+Name at least three system features that need to be assigned to roles to set up off-cycle timesheet processing.~0~0~0%~0
+What is the order in which the WITHIN_PERIOD_BANK_PROCESSING calculation stage performs calculations?~0~0~0%~0
+Fill in the blank. The __________ policy defines the rules for drawing from the bank.~0~0~0%~0
+Enter the terms which match the following definitions: a. A gain of units, such as hours, occurrences, or amounts; b. Specifies how time from a bank gets moved to one or more other banks; c. A repository that contains the amount of earned time available to an employee; d. Specifies how unused units are cleared from employee banks~0~0~0%~0
+What affects the reports that display for a given WorkForce user?~0~0~0%~0
+True or False. Application Consultants are responsible for working with custom reports.~0~0~0%~0
+Name the three types of exports.~0~0~0%~0
+What information do you need from the .ALL assignment group for the NIGHTLY_CALCULATE job?~0~0~0%~0
+Which item describes Labor Distribution fields?~0~0~0%~0
+True or False. LD Dependencies define a relationship between an LD field and any one of the following: employee data, assignment data, or other LD data.~0~0~0%~0
+Which policy links all of the Mobile layouts required for sharing across policy profiles?~0~0~0%~0
+Where would a new exception message be added to appear on Mobile?~0~0~0%~0
+Where would a new pay code be added to appear on Mobile?~0~0~0%~0
+What is the difference between a Positive Test and a Negative Test?~0~0~0%~0
+What is the order of the following items executed to determine when a policy within a set happens? a. Context (day, slice, etc.); b. Calculation Stage; c. Order in Policy Set~0~0~0%~0
+Who typically provides QA testing on configuration items?~0~0~0%~0
+Where would you configure the instance name on the Login screen?~0~0~0%~0
+Which system features are required when migrating policies? (out of EXPORT_POLICIES, IMPORT_POLICIES, MIGRATE_POLICIES, MOVE_POLICIES)~0~0~0%~0

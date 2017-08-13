@@ -457,7 +457,7 @@ class FCStateRunCardsMenu (FCState):
 		# We now have a cardlist, so kick off the run
 		# If in endless mode, pass in the full flashcard set as well, to indicate so
 		if choice[0] == 'endless':
-			self.next = FCStateRunCardList(cardlist,self._mainmenu,self._set,True)
+			self.next = FCStateRunCardList(cardlist,self._mainmenu,self._set,endless)
 		else:
 			self.next = FCStateRunCardList(cardlist,self._mainmenu,self._set)
 
